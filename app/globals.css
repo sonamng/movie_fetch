@@ -1,0 +1,180 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(237, 234, 234);
+  background-color:black; 
+}
+.header{
+  height: 100px;
+  color: white;
+  border:1px solid gray;
+  background-color:black;
+}
+.cantainer-div{
+  width: 1200px;
+  height: 377px;
+  background-color:black;
+  padding: 30px;
+  margin: auto;
+  color:white;
+}
+.likebutton{
+  width: 41px;
+  margin-left: 6px;
+  float: left;
+}
+.showdatabutton{
+  width: 41px;
+  height: 40px;
+  margin-left: 6px;
+  float: left;
+  background-color: gray;
+  border-radius: 60%;
+  padding: 5px;
+  color: white;
+}
+.sss{
+  margin-left: 14px;
+  top: 10px;
+  position: relative;
+}
+.dislikebutton{
+  width: 41px;
+  margin-left: 6px;
+  float: left;
+}
+.header-img{
+    width:70px;
+    height:70px;
+    margin-top: 13px;
+    padding: 0px 35px
+}
+.frist-box{
+    width: 140px;
+    height:98px;
+    float: left;
+    margin-left:80px;
+}
+.second-box{
+    width: 184px;
+    height:98px;
+    float: left;
+    padding: 0px 6px; 
+}
+.third-box{
+    float: left;
+    width: 170px;
+    height:98px;
+    margin-left: 1069px;
+}
+.four-box{
+    float: left;
+    width: 170px;
+    height:98px;
+}
+b{
+    position:relative;
+    top: 36px;
+    font-size:25px;
+}
+.footer-div{
+  height: 170px;
+  background-color:#27374D;
+  color: white;  
+}
+.footer-box{
+    width: 1200px;
+    height: 169px;
+    margin:auto;
+}
+.navgurukul-img{
+    margin-top:100px;
+}
+.moviesrow{
+    height:348px;
+    width: 1686px;
+    margin:auto;
+}
+.col21{
+    padding:10px;
+    width: 313px;
+    height: 348px;
+    box-sizing: border-box;
+    float: left; 
+
+}
+.col22{
+    padding:10px;
+    height: 348px;
+    width: 1353px;
+    box-sizing: border-box;
+    float: left;
+    margin-left:20px;
+    color:white;
+}
+.img{
+    height: 316px;
+    width: 282px;
+}
+.col23{
+    height: 241px;
+    width: 1323px;
+    color:white; 
+}
+.col24{
+    height: 76px;
+    width: 1323px;
+    color:white; 
+}
+.deletebutton{
+    margin-left: 632px;
+    width:40px;
+}
+.addmoviebutton{
+    text-align: center;
+    line-height: 3.6;
+    width: 199px;
+    height: 60px;
+    border-radius: 5px;
+    background-color:red;
+    padding:2px;
+}
+.addimage{
+    margin-top:5px;
+}
+.footerdiv{
+    height:;
+    height: 470px;
+    width: 1686px;
+    margin:auto;
+    color:white;
+}
+
+input{
+    width: 374px;
+    height: 43px;
+    border: 2px solid gray;
+}
+
+.textarea {
+    width: 611px;
+    height: 164px;
+    border: 2px solid gray;
+}
+.uplodebutton{
+    text-align: center;
+    height: 48px;
+    width: 171px;
+    border: 2px solid red;
+    border-radius: 25px;
+    font-size:19px;
+    line-height: 2.6;  
+}
+.form-container {
+    height: 578px;
+    width: 1608px;
+    border: 3px solid gray;
+    padding:40px;
+}
+
+
