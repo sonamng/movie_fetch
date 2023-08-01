@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Header from "./header.js"
 import MoviesRow from "./movie_row.js"
-import FormComponent from "./form.js"
+import FormAddMovies from "./form.js"
 import Footer from "./footer.js"
 import { moviesdata } from './data.js';
 
@@ -52,7 +52,14 @@ function Page() {
         return total_LikeB - total_likeA;
     });
     
+    // Add the new movie to the existing data array
+    const handleAddMovie = (newMovie) => {
+        setData((prevData) => [...prevData, newMovie]);
+    };
+
+    
     return (
+        <>
         <div>
             <Header />
             <div>
@@ -67,12 +74,15 @@ function Page() {
                     />
                 ))}
             </div>
+            
             <div className="footerdiv">
-                <h3>Add a new movie</h3>
-                <p>To add a movie you have to fill a form. The added movie will appear in the list above.</p>
-                <FormComponent />
+                <FormAddMovies onAddMovie={handleAddMovie}/>
             </div>
+            
         </div>
+         <Footer/>
+        </>
+        
     )
 }
 export default Page;
